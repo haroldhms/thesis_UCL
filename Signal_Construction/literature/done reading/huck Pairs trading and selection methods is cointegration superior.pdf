@@ -8805,3 +8805,576 @@ trailer
 startxref
 613416
 %%EOF
+4 0 obj<</Length 6297/Subtype/XML/Type/Metadata>>stream
+<?xpacket begin="ï»¿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.1-c000 79.425dc87, 2021/10/27-16:20:32        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:prism_1_="http://prismstandard.org/namespaces/basic/2.0/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:crossmark="http://crossref.org/crossmark/1.0/"
+            xmlns:jav="http://www.niso.org/schemas/jav/1.0/"
+            xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/">
+         <dc:format>application/pdf</dc:format>
+         <dc:identifier>10.1080/00036846.2014.975417</dc:identifier>
+         <dc:lang>en</dc:lang>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Pairs trading and selection methods: is cointegration superior?</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Nicolas Huck</rdf:li>
+               <rdf:li>Komivi Afawubo</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <dc:publisher>
+            <rdf:Bag>
+               <rdf:li>Routledge</rdf:li>
+            </rdf:Bag>
+         </dc:publisher>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Applied Economics, 2014. doi:10.1080/00036846.2014.975417</rdf:li>
+            </rdf:Alt>
+         </dc:description>
+         <dc:subject>
+            <rdf:Bag>
+               <rdf:li>pairs trading</rdf:li>
+               <rdf:li>trading rules</rdf:li>
+               <rdf:li>distance</rdf:li>
+               <rdf:li>cointegration</rdf:li>
+               <rdf:li>stationarity</rdf:li>
+            </rdf:Bag>
+         </dc:subject>
+         <prism_1_:aggregationType>Journal</prism_1_:aggregationType>
+         <prism_1_:publicationName>Applied Economics</prism_1_:publicationName>
+         <prism_1_:copyright>Â© 2014 Taylor &amp; Francis</prism_1_:copyright>
+         <prism_1_:issn>0003-6846</prism_1_:issn>
+         <prism_1_:elssn>1466-4283</prism_1_:elssn>
+         <prism_1_:volume>47</prism_1_:volume>
+         <prism_1_:number>6</prism_1_:number>
+         <prism_1_:issueName/>
+         <prism_1_:startingPage>599</prism_1_:startingPage>
+         <prism_1_:endingPage>613</prism_1_:endingPage>
+         <prism_1_:doi>10.1080/00036846.2014.975417</prism_1_:doi>
+         <prism_1_:url>http://dx.doi.org/10.1080/00036846.2014.975417</prism_1_:url>
+         <xmp:CreateDate>2014-12-03T14:11:59+05:30</xmp:CreateDate>
+         <xmp:CreatorTool>Arbortext Advanced Print Publisher 11.0.2857/W Unicode</xmp:CreatorTool>
+         <xmp:ModifyDate>2022-02-04T13:16:11Z</xmp:ModifyDate>
+         <xmp:MetadataDate>2022-02-04T13:16:11Z</xmp:MetadataDate>
+         <pdf:Keywords>pairs trading; trading rules; distance; cointegration; stationarity</pdf:Keywords>
+         <pdf:Producer>Acrobat Distiller 8.1.0 (Windows)</pdf:Producer>
+         <xmpMM:DocumentID>uuid:b4ec12cc-d9f8-417c-970b-f2d2d87f152b</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:2a8d2813-c4dd-4eed-ba88-dac333e7ebab</xmpMM:InstanceID>
+         <crossmark:DOI>10.1080/00036846.2014.975417</crossmark:DOI>
+         <crossmark:MajorVersionDate>2014-12-03</crossmark:MajorVersionDate>
+         <crossmark:CrossmarkDomainExclusive>True</crossmark:CrossmarkDomainExclusive>
+         <crossmark:CrossMarkDomains>
+            <rdf:Seq>
+               <rdf:li>www.tandfonline.com</rdf:li>
+            </rdf:Seq>
+         </crossmark:CrossMarkDomains>
+         <jav:journal_article_version>VoR</jav:journal_article_version>
+         <pdfx:doi>10.1080/00036846.2014.975417</pdfx:doi>
+         <pdfx:CrossmarkMajorVersionDate>2014-12-03</pdfx:CrossmarkMajorVersionDate>
+         <pdfx:CrossmarkDomainExclusive>True</pdfx:CrossmarkDomainExclusive>
+         <pdfx:CrossMarkDomains>
+            <rdf:Seq>
+               <rdf:li>www.tandfonline.com</rdf:li>
+            </rdf:Seq>
+         </pdfx:CrossMarkDomains>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstreamendobj7 0 obj<</Author(Nicolas Huck)/CreationDate(D:20141203141159+05'30')/Creator(Arbortext Advanced Print Publisher 11.0.2857/W Unicode)/CrossMarkDomains#5B1#5D(www.tandfonline.com)/CrossmarkDomainExclusive(True)/CrossmarkMajorVersionDate(2014-12-03)/Keywords(pairs trading; trading rules; distance; cointegration; stationarity)/ModDate(D:20220204131611Z)/Producer(Acrobat Distiller 8.1.0 \(Windows\))/Subject(Applied Economics, 2014. doi:10.1080/00036846.2014.975417)/Title(Pairs trading and selection methods: is cointegration superior?)/doi(10.1080/00036846.2014.975417)>>endobj9 0 obj<</Annots[57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 652 0 R 653 0 R 654 0 R 655 0 R 656 0 R 657 0 R 692 0 R 693 0 R]/Contents[68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R]/CropBox[0.0 0.0 609.449 793.701]/MediaBox[0.0 0.0 609.449 793.701]/Parent 2 0 R/Resources 76 0 R/Rotate 0/Type/Page>>endobj11 0 obj<</Annots[104 0 R 105 0 R 106 0 R 107 0 R 108 0 R 109 0 R 110 0 R 111 0 R 112 0 R 113 0 R 114 0 R 607 0 R 608 0 R 609 0 R 610 0 R 687 0 R 688 0 R]/Contents 115 0 R/CropBox[0.0 0.0 609.449 793.701]/MediaBox[0.0 0.0 609.449 793.701]/Parent 2 0 R/Resources 116 0 R/Rotate 0/Type/Page>>endobj12 0 obj<</Annots[117 0 R 118 0 R 119 0 R 120 0 R 121 0 R 122 0 R 123 0 R 124 0 R 125 0 R 126 0 R 127 0 R 128 0 R 129 0 R 130 0 R 131 0 R 132 0 R 133 0 R 134 0 R 577 0 R 578 0 R 579 0 R 580 0 R 581 0 R 582 0 R 583 0 R 584 0 R 585 0 R 586 0 R 587 0 R 588 0 R 667 0 R 668 0 R 669 0 R 670 0 R 671 0 R 672 0 R 673 0 R 674 0 R]/Contents 135 0 R/CropBox[0.0 0.0 609.449 793.701]/MediaBox[0.0 0.0 609.449 793.701]/Parent 2 0 R/Resources 136 0 R/Rotate 0/Type/Page>>endobj667 0 obj<</AP<</N 684 0 R>>/C[1.0 0.819611 0.0]/CA 0.399994/CreationDate(D:20220204130811Z)/F 4/M(D:20220204130811Z)/NM(6422f34a-435a-4d0a-8406-47d44cd222c9)/P 12 0 R/Popup 668 0 R/QuadPoints[65.1968 674.888 292.75 674.888 65.1968 663.02 292.75 663.02 65.1858 661.968 292.793 661.968 65.1858 650.099 292.793 650.099 65.1858 648.981 237.001 648.981 65.1858 637.113 237.001 637.113]/Rect[62.0175 636.742 295.961 675.259]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj668 0 obj<</F 28/Open false/Parent 667 0 R/Rect[609.449 560.888 813.449 674.888]/Subtype/Popup/Type/Annot>>endobj669 0 obj<</AP<</N 681 0 R>>/C[1.0 0.819611 0.0]/CA 0.399994/CreationDate(D:20220204130825Z)/F 4/M(D:20220204130825Z)/NM(a6d11ea3-8b7c-4405-95c0-1ef5c03270e8)/P 12 0 R/Popup 670 0 R/QuadPoints[124.332 545.419 292.805 545.419 124.332 533.55 292.805 533.55 65.1968 532.432 292.793 532.432 65.1968 520.564 292.793 520.564 65.1968 519.512 111.4 519.512 65.1968 507.643 111.4 507.643]/Rect[62.0285 507.272 295.973 545.79]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj670 0 obj<</F 28/Open false/Parent 669 0 R/Rect[609.449 431.419 813.449 545.419]/Subtype/Popup/Type/Annot>>endobj671 0 obj<</AP<</N 678 0 R>>/C[1.0 0.819611 0.0]/CA 0.399994/CreationDate(D:20220204130831Z)/F 4/M(D:20220204130831Z)/NM(ad432f45-b51f-4ecd-960a-5ef60aada060)/P 12 0 R/Popup 672 0 R/QuadPoints[65.1955 440.11 292.792 440.11 65.1955 428.242 292.792 428.242 82.7717 428.502 91.2102 428.502 82.7717 417.543 91.2102 417.543 104.315 428.502 112.753 428.502 104.315 417.543 112.753 417.543 65.1955 427.233 79.0035 427.233 65.1955 414.304 79.0035 414.304 94.2787 427.132 101.114 427.132 94.2787 414.304 101.114 414.304 115.197 427.132 135.231 427.132 115.197 414.304 135.231 414.304 122.287 423.57 128.193 423.57 122.287 415.899 128.193 415.899]/Rect[61.7439 413.9 295.961 440.481]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj672 0 obj<</F 28/Open false/Parent 671 0 R/Rect[609.449 326.11 813.449 440.11]/Subtype/Popup/Type/Annot>>endobj673 0 obj<</AP<</N 675 0 R>>/C[1.0 0.819611 0.0]/CA 0.399994/CreationDate(D:20220204130849Z)/F 4/M(D:20220204130849Z)/NM(e5664e31-f94a-4084-9a98-d8a3f35b6d81)/P 12 0 R/Popup 674 0 R/QuadPoints[327.619 680.262 544.257 680.262 327.619 668.394 544.257 668.394 316.682 667.342 544.235 667.342 316.682 655.473 544.235 655.473 316.682 654.421 544.246 654.421 316.682 642.553 544.246 642.553 316.682 641.435 367.762 641.435 316.682 629.566 367.762 629.566]/Rect[313.514 629.195 547.426 680.633]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj674 0 obj<</F 28/Open false/Parent 673 0 R/Rect[609.449 566.262 813.449 680.262]/Subtype/Popup/Type/Annot>>endobj675 0 obj<</BBox[0.0 0.0 233.912 51.438]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 676 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj676 0 obj<</BBox[0.0 0.0 233.912 51.438]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 677 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj677 0 obj<</BBox[313.514 629.195 547.426 680.633]/Filter[/FlateDecode]/FormType 1/Length 235/Matrix[1.0 0.0 0.0 1.0 -313.514 -629.195]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰T‘;n!ó9'x¢ÿp•¼É:qâë»G¦™´¤z@­cĞt¢ÖÛÏûè¥Ñ~á€Ó”æ> SfûN¦L³yh’´Ô­•6:ØYÛë0U°û$tS¿Å\Û¥­‚×ñu9|pR3hˆœ]$CG²­ˆ+r(KoÏ¢+L¬ĞÕ•·*±È¿µUğìR†û£K)lg‰­ÊÊùW•º»²4…Û,ò¿]Ö:ÿYÅæÎ*aˆ‹o]2à’O¾İ† ¢çšä+E]ìsHô<lÆfYë··Î²? gU{¤
+endstreamendobj678 0 obj<</BBox[0.0 0.0 234.217 26.5814]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 679 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj679 0 obj<</BBox[0.0 0.0 234.217 26.5814]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 680 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj680 0 obj<</BBox[61.7439 413.9 295.961 440.481]/Filter[/FlateDecode]/FormType 1/Length 391/Matrix[1.0 0.0 0.0 1.0 -61.7439 -413.9]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰T’1²ä DsŸ‚¨Ôt©ÚŸÌO6Ùë¯°ÄdvÛ¯Õ´@ağ..¦^1Ê¿«ÁÍJ•ARaå÷jBê¥*ˆÕK¾wRH+›©LaøºÄ…º‹,åŠ‘ï	Êc›ĞıºşD°6ªG°_;âwt²ªÁF˜ÑˆiZR0r8Ê†ÂÒ8¼_—ƒ,)½/×¬’X
+ã­á3¸ÆQ"Ü	ê
+OôP>îÉe* ’šÖ3`¤ÚêA¦²Ü7w&‹İr,èØ&b$k{¶‰:îÿÕb7ë]jtgÇ2¥“èmØ˜õŞs<émaùnh^Áîkæ•¤~›Û§M•ş”~sÇZ79 ¢³·hĞC{ß{	ÉLey'wÆ›ıÂ»œ±fÃèŸ†v+ÛsG2µ(_ÁtÌÜÊ6_Øwmµ{Ú B2Ú<ˆÑğ¸Pæçñ®s¤HEâî5‰‹³9Q²Î÷•‹›WMm&äØêAn%İ·2Ìˆÿ u Õ|
+endstreamendobj681 0 obj<</BBox[0.0 0.0 233.945 38.5174]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 682 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj682 0 obj<</BBox[0.0 0.0 233.945 38.5174]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 683 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj683 0 obj<</BBox[62.0285 507.272 295.973 545.79]/Filter[/FlateDecode]/FormType 1/Length 196/Matrix[1.0 0.0 0.0 1.0 -62.0285 -507.272]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰L;n1û=OğÀ¿Äóˆ§I“ë‡FvÍm‡š§bl©!¦ŸçÁX.›~Q‡™$…"Øè»™ ÌµYÂ|-âŠT1Ï=µéqh)6ûöjHVsÈµ>ŞÕğ8¾&1]ŞWeDÚîÂTX•72Xöè€Bš}$S¸©Ÿy«Ì†ıçEññFÎíñ®€wŞç^È^»W	Ãsª$±Ämª¤"«—DÎ,Ã^Í¼ß­ñFÎíñ®€wÕŸ  òm^ğ
+endstreamendobj684 0 obj<</BBox[0.0 0.0 233.944 38.5174]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 685 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj685 0 obj<</BBox[0.0 0.0 233.944 38.5174]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 686 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj686 0 obj<</BBox[62.0175 636.742 295.961 675.259]/Filter[/FlateDecode]/FormType 1/Length 195/Matrix[1.0 0.0 0.0 1.0 -62.0175 -636.742]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰T;Aó>'@ĞàÇÒ:ñ&›øúfFÓƒ7-u=J­$
+S%¡¿gö©Aïf‹™è·YçÌD+tï,Ğ-ùäˆ˜ôh='áÅ^É¯éZb‘½]Şx´Ÿ³*VX’"úUuÌÚê0§`utK¦œ|Wah±«
+²Jü"×vy;à¨ú÷iç¥á¬Úã;o€¡Ò+oZ>¨¼ŒĞqä¥/¢½Xæå€#¼Ä"{»¼pä} £¼_\
+endstreamendobj687 0 obj<</AP<</N 689 0 R>>/C[1.0 0.819611 0.0]/CA 0.399994/CreationDate(D:20220204130445Z)/F 4/M(D:20220204130445Z)/NM(9f44b9f2-3774-4cfe-9385-07b6cef3ac46)/P 11 0 R/Popup 688 0 R/QuadPoints[76.112 383.117 292.75 383.117 76.112 371.248 292.75 371.248 65.1749 370.196 292.728 370.196 65.1749 358.328 292.728 358.328 65.1749 357.21 292.771 357.21 65.1749 345.341 292.771 345.341 65.1749 344.289 292.717 344.289 65.1749 332.421 292.717 332.421 65.1749 331.303 292.739 331.303 65.1749 319.434 292.739 319.434 65.1749 318.382 292.749 318.382 65.1749 306.513 292.749 306.513 65.1749 305.396 292.783 305.396 65.1749 293.527 292.783 293.527 65.1749 292.475 292.76 292.475 65.1749 280.606 292.76 280.606 65.1749 279.554 167.817 279.554 65.1749 267.686 167.817 267.686]/Rect[62.0065 267.315 295.951 383.488]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj688 0 obj<</F 28/Open false/Parent 687 0 R/Rect[609.449 269.117 813.449 383.117]/Subtype/Popup/Type/Annot>>endobj689 0 obj<</BBox[0.0 0.0 233.944 116.173]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 690 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj690 0 obj<</BBox[0.0 0.0 233.944 116.173]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 691 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj691 0 obj<</BBox[62.0065 267.315 295.951 383.488]/Filter[/FlateDecode]/FormType 1/Length 440/Matrix[1.0 0.0 0.0 1.0 -62.0065 -267.315]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰l”;1Dó>…N@ˆê<ØÉ:qâë›ˆ¢Øhfª§ŠOÙ8&.CsüııLpÁÿ7@¤Á@<ş<ÎÀ(š’Àq„˜ùeÉ(Op~ZŒ¯‡eàòÖ¾SSPql_+İ¾ªÿõüj8SÀ|<X˜Ü’ÎØ]’âhÁWø8&Ÿ'¦Â#Ö6)µñRvvû
+àÅ;D%qQI òQ‚
+ä_¸©Ôæ:MsäÖ6•eÀ1¶RÙí+€*&š½bÊ†6%‚,¼Z%ê½À£m(nc+;ºmUşç‹ÄÂòÑ2" Fk:
+Ğ™×Ğ'BàI^tÖÚ¦ck_;¹]Uşg¸iy(Ön®İ¹3;Äs2‚zôHµ¶ÚÖJ%·­Êß·I‹s&seš‰–å,æ>6$®¸6s.–ZAYk›*Ú¶ŸÜã9Å?ˆr›mšÜD¹ô2¹»”sæ®£‘SáZ@6õH›G}µíRvrÛªüWH¹Ëy˜.W>_,ÔpùúòÜ¨†ó•Õä}÷`úãã£}?˜öÎú1^ÊÎn_¼xÿ ãIò
+endstreamendobj692 0 obj<</AP<</N 694 0 R>>/C[1.0 0.819611 0.0]/CA 0.399994/CreationDate(D:20220204130219Z)/F 4/M(D:20220204130219Z)/NM(ac8e0e9b-67aa-42b6-a28a-7b84528da43a)/P 9 0 R/Popup 693 0 R/QuadPoints[327.62 289.557 544.258 289.557 327.62 277.689 544.258 277.689 316.683 276.637 544.258 276.746 316.683 264.768 544.258 264.768 316.683 263.65 544.247 263.65 316.683 251.782 544.247 251.782 316.683 250.729 544.269 250.729 316.683 238.861 544.269 238.861 316.683 237.809 544.258 237.809 316.683 225.94 544.258 225.94 316.683 224.822 544.225 224.822 316.683 212.954 544.225 212.954 316.683 211.902 341.187 211.902 316.683 200.033 341.187 200.033]/Rect[313.511 199.662 547.455 289.928]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj693 0 obj<</F 28/Open false/Parent 692 0 R/Rect[609.449 175.557 813.449 289.557]/Subtype/Popup/Type/Annot>>endobj694 0 obj<</BBox[0.0 0.0 233.944 90.2657]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 695 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj695 0 obj<</BBox[0.0 0.0 233.944 90.2657]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 696 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj696 0 obj<</BBox[313.511 199.662 547.455 289.928]/Filter[/FlateDecode]/FormType 1/Length 365/Matrix[1.0 0.0 0.0 1.0 -313.511 -199.662]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰l“KnÅ0EçY…W€ óóz*µ“×I'İ~I©£8G¹p„	5„ aDÛÏ×àBÑ~ÎÆH=Ş¾“	³5	£¶×­r1@Õ¹}*¬Å^ÉPµWr#³zå–ÃÇñy)†ŠdIó{p‹S:Dhê˜ƒšj+âyè#•WÊóÙMËÏ.æ’§_à¸‚ƒyú]ä,>¨·ÊMƒ¥÷àj¤d?P¿lnã¼e/?ë`šƒœ~bVlú‰P‹¬â•[
+ÿö€sÜ»ŸP6
+Ùü²úè\zšuxÜã³°bSÏ*Vï³p…f÷Sí.Î
+C°?”8À»û¦ÔHÊ©;F<®t±{å*wƒUºRKàaECûxX‘æöæ.lÈZRï_D–k¡étW¬Àª|§Vû‡"`ÏïNÈ¹ê¸O
+J/)"HçÕóF(|c¯d¹ó!¾‹¬âwn)œ^ v»×
+endstreamendobjxref
+0 1
+0000000000 65535 f
+4 1
+0000616594 00000 n
+7 1
+0000622968 00000 n
+9 1
+0000623548 00000 n
+11 2
+0000623899 00000 n
+0000624198 00000 n
+667 30
+0000624665 00000 n
+0000625149 00000 n
+0000625265 00000 n
+0000625746 00000 n
+0000625862 00000 n
+0000626600 00000 n
+0000626714 00000 n
+0000627266 00000 n
+0000627382 00000 n
+0000627729 00000 n
+0000627964 00000 n
+0000628417 00000 n
+0000628765 00000 n
+0000629001 00000 n
+0000629606 00000 n
+0000629954 00000 n
+0000630190 00000 n
+0000630603 00000 n
+0000630951 00000 n
+0000631187 00000 n
+0000631600 00000 n
+0000632464 00000 n
+0000632580 00000 n
+0000632928 00000 n
+0000633164 00000 n
+0000633822 00000 n
+0000634559 00000 n
+0000634675 00000 n
+0000635023 00000 n
+0000635259 00000 n
+trailer
+<</Size 697/Root 1 0 R/Info 7 0 R/ID[<7E69A12AECE4BF04C5621F47065861AD><E36CD69A9AB32A4F87FB882B1174D441>]/Prev 613416>>
+startxref
+635842
+%%EOF
+4 0 obj<</Length 6297/Subtype/XML/Type/Metadata>>stream
+<?xpacket begin="ï»¿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.1-c000 79.425dc87, 2021/10/27-16:20:32        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:prism_1_="http://prismstandard.org/namespaces/basic/2.0/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:crossmark="http://crossref.org/crossmark/1.0/"
+            xmlns:jav="http://www.niso.org/schemas/jav/1.0/"
+            xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/">
+         <dc:format>application/pdf</dc:format>
+         <dc:identifier>10.1080/00036846.2014.975417</dc:identifier>
+         <dc:lang>en</dc:lang>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Pairs trading and selection methods: is cointegration superior?</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Nicolas Huck</rdf:li>
+               <rdf:li>Komivi Afawubo</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <dc:publisher>
+            <rdf:Bag>
+               <rdf:li>Routledge</rdf:li>
+            </rdf:Bag>
+         </dc:publisher>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Applied Economics, 2014. doi:10.1080/00036846.2014.975417</rdf:li>
+            </rdf:Alt>
+         </dc:description>
+         <dc:subject>
+            <rdf:Bag>
+               <rdf:li>pairs trading</rdf:li>
+               <rdf:li>trading rules</rdf:li>
+               <rdf:li>distance</rdf:li>
+               <rdf:li>cointegration</rdf:li>
+               <rdf:li>stationarity</rdf:li>
+            </rdf:Bag>
+         </dc:subject>
+         <prism_1_:aggregationType>Journal</prism_1_:aggregationType>
+         <prism_1_:publicationName>Applied Economics</prism_1_:publicationName>
+         <prism_1_:copyright>Â© 2014 Taylor &amp; Francis</prism_1_:copyright>
+         <prism_1_:issn>0003-6846</prism_1_:issn>
+         <prism_1_:elssn>1466-4283</prism_1_:elssn>
+         <prism_1_:volume>47</prism_1_:volume>
+         <prism_1_:number>6</prism_1_:number>
+         <prism_1_:issueName/>
+         <prism_1_:startingPage>599</prism_1_:startingPage>
+         <prism_1_:endingPage>613</prism_1_:endingPage>
+         <prism_1_:doi>10.1080/00036846.2014.975417</prism_1_:doi>
+         <prism_1_:url>http://dx.doi.org/10.1080/00036846.2014.975417</prism_1_:url>
+         <xmp:CreateDate>2014-12-03T14:11:59+05:30</xmp:CreateDate>
+         <xmp:CreatorTool>Arbortext Advanced Print Publisher 11.0.2857/W Unicode</xmp:CreatorTool>
+         <xmp:ModifyDate>2022-02-04T13:24:50Z</xmp:ModifyDate>
+         <xmp:MetadataDate>2022-02-04T13:24:50Z</xmp:MetadataDate>
+         <pdf:Keywords>pairs trading; trading rules; distance; cointegration; stationarity</pdf:Keywords>
+         <pdf:Producer>Acrobat Distiller 8.1.0 (Windows)</pdf:Producer>
+         <xmpMM:DocumentID>uuid:b4ec12cc-d9f8-417c-970b-f2d2d87f152b</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:ac8d3c01-f121-4d45-9f7a-b7c3e3a0a820</xmpMM:InstanceID>
+         <crossmark:DOI>10.1080/00036846.2014.975417</crossmark:DOI>
+         <crossmark:MajorVersionDate>2014-12-03</crossmark:MajorVersionDate>
+         <crossmark:CrossmarkDomainExclusive>True</crossmark:CrossmarkDomainExclusive>
+         <crossmark:CrossMarkDomains>
+            <rdf:Seq>
+               <rdf:li>www.tandfonline.com</rdf:li>
+            </rdf:Seq>
+         </crossmark:CrossMarkDomains>
+         <jav:journal_article_version>VoR</jav:journal_article_version>
+         <pdfx:doi>10.1080/00036846.2014.975417</pdfx:doi>
+         <pdfx:CrossmarkMajorVersionDate>2014-12-03</pdfx:CrossmarkMajorVersionDate>
+         <pdfx:CrossmarkDomainExclusive>True</pdfx:CrossmarkDomainExclusive>
+         <pdfx:CrossMarkDomains>
+            <rdf:Seq>
+               <rdf:li>www.tandfonline.com</rdf:li>
+            </rdf:Seq>
+         </pdfx:CrossMarkDomains>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstreamendobj7 0 obj<</Author(Nicolas Huck)/CreationDate(D:20141203141159+05'30')/Creator(Arbortext Advanced Print Publisher 11.0.2857/W Unicode)/CrossMarkDomains#5B1#5D(www.tandfonline.com)/CrossmarkDomainExclusive(True)/CrossmarkMajorVersionDate(2014-12-03)/Keywords(pairs trading; trading rules; distance; cointegration; stationarity)/ModDate(D:20220204132450Z)/Producer(Acrobat Distiller 8.1.0 \(Windows\))/Subject(Applied Economics, 2014. doi:10.1080/00036846.2014.975417)/Title(Pairs trading and selection methods: is cointegration superior?)/doi(10.1080/00036846.2014.975417)>>endobj13 0 obj<</Annots[137 0 R 138 0 R 139 0 R 140 0 R 141 0 R 142 0 R 143 0 R 537 0 R 538 0 R 539 0 R 540 0 R 541 0 R 542 0 R 543 0 R 544 0 R 545 0 R 546 0 R 547 0 R 548 0 R 549 0 R 550 0 R 551 0 R 552 0 R 697 0 R 698 0 R]/Contents 144 0 R/CropBox[0.0 0.0 609.449 793.701]/MediaBox[0.0 0.0 609.449 793.701]/Parent 2 0 R/Resources 145 0 R/Rotate 0/Type/Page>>endobj697 0 obj<</AP<</N 699 0 R>>/C[1.0 0.819611 0.0]/CA 0.399994/CreationDate(D:20220204132422Z)/F 4/M(D:20220204132422Z)/NM(91f860ed-4e3f-4546-8125-8da10b4c0c5e)/P 13 0 R/Popup 698 0 R/QuadPoints[65.2196 210.484 292.784 210.484 65.2196 198.615 292.784 198.615 65.2196 197.497 292.838 197.497 65.2196 185.629 292.838 185.629 65.2196 184.577 292.926 184.577 65.2196 172.708 292.926 172.708 65.2196 171.59 95.3461 171.59 65.2196 159.722 95.3461 159.722]/Rect[62.0513 159.351 296.095 210.855]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj698 0 obj<</F 28/Open false/Parent 697 0 R/Rect[609.449 96.4838 813.449 210.484]/Subtype/Popup/Type/Annot>>endobj699 0 obj<</BBox[0.0 0.0 234.043 51.5038]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 700 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj700 0 obj<</BBox[0.0 0.0 234.043 51.5038]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 701 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj701 0 obj<</BBox[62.0513 159.351 296.095 210.855]/Filter[/FlateDecode]/FormType 1/Length 229/Matrix[1.0 0.0 0.0 1.0 -62.0513 -159.351]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰T‘;nÄ0{‚' DŠßó,4›&M®k™vGôFÁÄ 4"˜ğû=&ºPÀß0E.”Fºàg£03ğ$b‡¶`‡˜&J¬€×àdôc¼Ø»˜¢­ŞÈÙ}å.×øj«P4¸YQD‡Ä)h™	ıGI—ÓªÊ¥ÙÇÊ–f›ìîÎm‡•—ó¾[y=lªµUºgïŠBPİü´J6nö±r^ÖÁ&»»s[àa¥Yçé±«”’ÛÊ=ù¶+'ÔœÇÖëº%FŞ£¾„diÇœÅWh_~ı0 ĞyX
+endstreamendobjxref
+0 1
+0000000000 65535 f
+4 1
+0000636759 00000 n
+7 1
+0000643133 00000 n
+13 1
+0000643713 00000 n
+697 5
+0000644076 00000 n
+0000644626 00000 n
+0000644742 00000 n
+0000645090 00000 n
+0000645326 00000 n
+trailer
+<</Size 702/Root 1 0 R/Info 7 0 R/ID[<7E69A12AECE4BF04C5621F47065861AD><80C1B53FB6544E489E2355B0DEDCD5DA>]/Prev 635842>>
+startxref
+645773
+%%EOF
+4 0 obj<</Length 6297/Subtype/XML/Type/Metadata>>stream
+<?xpacket begin="ï»¿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.1-c000 79.425dc87, 2021/10/27-16:20:32        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:prism_1_="http://prismstandard.org/namespaces/basic/2.0/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:crossmark="http://crossref.org/crossmark/1.0/"
+            xmlns:jav="http://www.niso.org/schemas/jav/1.0/"
+            xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/">
+         <dc:format>application/pdf</dc:format>
+         <dc:identifier>10.1080/00036846.2014.975417</dc:identifier>
+         <dc:lang>en</dc:lang>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Pairs trading and selection methods: is cointegration superior?</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Nicolas Huck</rdf:li>
+               <rdf:li>Komivi Afawubo</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <dc:publisher>
+            <rdf:Bag>
+               <rdf:li>Routledge</rdf:li>
+            </rdf:Bag>
+         </dc:publisher>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Applied Economics, 2014. doi:10.1080/00036846.2014.975417</rdf:li>
+            </rdf:Alt>
+         </dc:description>
+         <dc:subject>
+            <rdf:Bag>
+               <rdf:li>pairs trading</rdf:li>
+               <rdf:li>trading rules</rdf:li>
+               <rdf:li>distance</rdf:li>
+               <rdf:li>cointegration</rdf:li>
+               <rdf:li>stationarity</rdf:li>
+            </rdf:Bag>
+         </dc:subject>
+         <prism_1_:aggregationType>Journal</prism_1_:aggregationType>
+         <prism_1_:publicationName>Applied Economics</prism_1_:publicationName>
+         <prism_1_:copyright>Â© 2014 Taylor &amp; Francis</prism_1_:copyright>
+         <prism_1_:issn>0003-6846</prism_1_:issn>
+         <prism_1_:elssn>1466-4283</prism_1_:elssn>
+         <prism_1_:volume>47</prism_1_:volume>
+         <prism_1_:number>6</prism_1_:number>
+         <prism_1_:issueName/>
+         <prism_1_:startingPage>599</prism_1_:startingPage>
+         <prism_1_:endingPage>613</prism_1_:endingPage>
+         <prism_1_:doi>10.1080/00036846.2014.975417</prism_1_:doi>
+         <prism_1_:url>http://dx.doi.org/10.1080/00036846.2014.975417</prism_1_:url>
+         <xmp:CreateDate>2014-12-03T14:11:59+05:30</xmp:CreateDate>
+         <xmp:CreatorTool>Arbortext Advanced Print Publisher 11.0.2857/W Unicode</xmp:CreatorTool>
+         <xmp:ModifyDate>2022-02-04T13:32:52Z</xmp:ModifyDate>
+         <xmp:MetadataDate>2022-02-04T13:32:52Z</xmp:MetadataDate>
+         <pdf:Keywords>pairs trading; trading rules; distance; cointegration; stationarity</pdf:Keywords>
+         <pdf:Producer>Acrobat Distiller 8.1.0 (Windows)</pdf:Producer>
+         <xmpMM:DocumentID>uuid:b4ec12cc-d9f8-417c-970b-f2d2d87f152b</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:4b4c6248-583e-4377-afbf-5f8d98b6c0a6</xmpMM:InstanceID>
+         <crossmark:DOI>10.1080/00036846.2014.975417</crossmark:DOI>
+         <crossmark:MajorVersionDate>2014-12-03</crossmark:MajorVersionDate>
+         <crossmark:CrossmarkDomainExclusive>True</crossmark:CrossmarkDomainExclusive>
+         <crossmark:CrossMarkDomains>
+            <rdf:Seq>
+               <rdf:li>www.tandfonline.com</rdf:li>
+            </rdf:Seq>
+         </crossmark:CrossMarkDomains>
+         <jav:journal_article_version>VoR</jav:journal_article_version>
+         <pdfx:doi>10.1080/00036846.2014.975417</pdfx:doi>
+         <pdfx:CrossmarkMajorVersionDate>2014-12-03</pdfx:CrossmarkMajorVersionDate>
+         <pdfx:CrossmarkDomainExclusive>True</pdfx:CrossmarkDomainExclusive>
+         <pdfx:CrossMarkDomains>
+            <rdf:Seq>
+               <rdf:li>www.tandfonline.com</rdf:li>
+            </rdf:Seq>
+         </pdfx:CrossMarkDomains>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstreamendobj7 0 obj<</Author(Nicolas Huck)/CreationDate(D:20141203141159+05'30')/Creator(Arbortext Advanced Print Publisher 11.0.2857/W Unicode)/CrossMarkDomains#5B1#5D(www.tandfonline.com)/CrossmarkDomainExclusive(True)/CrossmarkMajorVersionDate(2014-12-03)/Keywords(pairs trading; trading rules; distance; cointegration; stationarity)/ModDate(D:20220204133252Z)/Producer(Acrobat Distiller 8.1.0 \(Windows\))/Subject(Applied Economics, 2014. doi:10.1080/00036846.2014.975417)/Title(Pairs trading and selection methods: is cointegration superior?)/doi(10.1080/00036846.2014.975417)>>endobj13 0 obj<</Annots[137 0 R 138 0 R 139 0 R 140 0 R 141 0 R 142 0 R 143 0 R 537 0 R 538 0 R 539 0 R 540 0 R 541 0 R 542 0 R 543 0 R 544 0 R 545 0 R 546 0 R 547 0 R 548 0 R 549 0 R 550 0 R 551 0 R 552 0 R 697 0 R 698 0 R 717 0 R 718 0 R 719 0 R 720 0 R]/Contents 144 0 R/CropBox[0.0 0.0 609.449 793.701]/MediaBox[0.0 0.0 609.449 793.701]/Parent 2 0 R/Resources 145 0 R/Rotate 0/Type/Page>>endobj14 0 obj<</Annots[146 0 R 147 0 R 148 0 R 149 0 R 150 0 R 151 0 R 152 0 R 153 0 R 154 0 R 155 0 R 156 0 R 702 0 R 703 0 R 704 0 R 705 0 R 706 0 R 707 0 R]/Contents 157 0 R/CropBox[0.0 0.0 609.449 793.701]/MediaBox[0.0 0.0 609.449 793.701]/Parent 2 0 R/Resources 158 0 R/Rotate 0/Type/Page>>endobj702 0 obj<</AP<</N 714 0 R>>/C[0.988235 0.956863 0.521576]/CA 0.399994/CreationDate(D:20220204133031Z)/F 4/M(D:20220204133035Z)/NM(bad462bb-71d4-4083-80a5-1bd904bcf3f3)/P 14 0 R/Popup 703 0 R/QuadPoints[90.9273 494.54 292.781 494.54 90.9273 482.671 292.781 482.671 90.9273 481.553 292.836 481.553 90.9273 469.685 292.836 469.685 90.9273 468.633 292.748 468.633 90.9273 456.764 292.748 456.764 90.9273 455.646 146.478 455.646 90.9273 443.778 146.478 443.778 155.618 455.646 215.038 455.646 155.618 443.778 215.038 443.778 224.222 455.646 254.205 455.646 224.222 443.778 254.205 443.778 263.334 455.646 292.748 455.646 263.334 443.778 292.748 443.778 90.9273 442.726 292.748 442.726 90.9273 430.857 292.748 430.857 90.9273 429.805 292.792 429.805 90.9273 417.936 292.792 417.936 90.9273 416.819 292.759 416.819 90.9273 404.95 292.759 404.95 90.9273 403.898 292.759 403.898 90.9273 392.029 292.759 392.029 90.9273 390.911 292.77 390.911 90.9273 379.043 292.77 379.043 90.9273 377.991 292.749 377.991 90.9273 366.122 292.749 366.122 226.764 366.675 273.741 366.675 226.764 353.136 273.741 353.136 90.9273 365.004 220.309 365.004 90.9273 353.136 220.309 353.136 280.233 364.997 292.77 364.997 280.233 353.128 292.77 353.128 90.9382 352.076 148.155 352.076 90.9382 340.208 148.155 340.208]/Rect[87.7589 339.837 296.004 494.911]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj703 0 obj<</F 28/Open false/Parent 702 0 R/Rect[609.449 380.54 813.449 494.54]/Subtype/Popup/Type/Annot>>endobj704 0 obj<</AP<</N 711 0 R>>/C[0.988235 0.956863 0.521576]/CA 0.399994/CreationDate(D:20220204133110Z)/F 4/M(D:20220204133110Z)/NM(806b45be-eb7a-4cd0-98b7-777e637589d2)/P 14 0 R/Popup 705 0 R/QuadPoints[90.9354 732.764 292.778 732.764 90.9354 720.895 292.778 720.895 90.9354 719.843 292.8 719.843 90.9354 707.975 292.8 707.975 90.9244 706.857 292.746 706.857 90.9244 694.988 292.746 694.988 90.9244 693.936 292.756 693.936 90.9244 682.068 292.756 682.068 90.9244 681.015 292.778 681.015 90.9244 669.147 292.778 669.147 74.4969 667.744 80.9956 667.744 74.4969 654.506 80.9956 654.506 90.9354 668.029 292.855 668.029 90.9354 656.16 292.855 656.16 90.9354 655.108 183.364 655.108 90.9354 643.24 183.364 643.24 185.95 655.108 221.13 655.108 185.95 642.028 221.13 642.028 226.658 655.094 292.851 655.094 226.658 643.226 292.851 643.226 221.153 650.574 223.224 650.574 221.153 642.266 223.224 642.266]/Rect[70.9629 641.619 296.024 733.135]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj705 0 obj<</F 28/Open false/Parent 704 0 R/Rect[609.449 618.764 813.449 732.764]/Subtype/Popup/Type/Annot>>endobj706 0 obj<</AP<</N 708 0 R>>/C[0.988235 0.956863 0.521576]/CA 0.399994/CreationDate(D:20220204133115Z)/F 4/M(D:20220204133115Z)/NM(9f7633a7-c613-4205-a7d0-68c56a2251b6)/P 14 0 R/Popup 707 0 R/QuadPoints[91.1026 557.979 117.558 557.979 91.1026 546.111 117.558 546.111 121.722 557.979 147.262 557.979 121.722 545.151 147.262 545.151 152.164 557.979 292.779 557.979 152.164 546.111 292.779 546.111 91.1003 544.993 130.827 544.993 91.1003 533.125 130.827 533.125 133.391 544.993 144.197 544.993 133.391 531.93 144.197 531.93 149.613 544.997 292.76 544.997 149.613 533.128 292.76 533.128 144.166 540.476 146.237 540.476 144.166 532.168 146.237 532.168 284.315 532.364 292.753 532.364 284.315 521.405 292.753 521.405 91.1025 530.991 205.646 530.991 91.1025 519.123 205.646 519.123 209.986 530.991 235.533 530.991 209.986 518.165 235.533 518.165 239.924 530.994 264.758 530.994 239.924 519.125 264.758 518.785 267.695 530.994 278.449 530.994 267.695 517.927 278.449 517.927 278.472 526.473 280.543 526.473 278.472 518.165 280.543 518.165 106.412 518.924 114.171 518.924 106.412 504.666 114.171 504.666 120.188 518.814 133.361 518.814 120.188 507.855 133.361 507.855 162.085 518.814 170.523 518.814 162.085 507.855 170.523 507.855 194.182 518.814 197.141 518.814 194.182 507.855 197.141 507.855 91.1077 517.448 103.475 517.448 91.1077 504.615 103.475 504.615 114.182 517.444 117.141 517.444 114.182 505.576 117.141 505.576 133.339 517.444 158.941 517.444 133.339 504.615 158.941 504.615 172.967 517.444 225.801 517.444 172.967 505.115 225.801 505.576 228.036 517.444 236.723 517.444 228.036 504.615 236.723 504.615 239.641 517.444 292.759 517.444 239.641 505.576 292.759 505.576 91.1026 504.523 218.622 504.523 91.1026 492.655 218.622 492.655]/Rect[87.6819 492.284 295.947 558.38]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj707 0 obj<</F 28/Open false/Parent 706 0 R/Rect[609.449 443.979 813.449 557.979]/Subtype/Popup/Type/Annot>>endobj708 0 obj<</BBox[0.0 0.0 208.265 66.0964]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 709 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj709 0 obj<</BBox[0.0 0.0 208.265 66.0964]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 710 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj710 0 obj<</BBox[87.6819 492.284 295.947 558.38]/Filter[/FlateDecode]/FormType 1/Length 1227/Matrix[1.0 0.0 0.0 1.0 -87.6819 -492.284]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰lWMrõ6Û¿Sø‘")é<ßL»I6İäúe‹”Ûì<D1µÌ1¸éUËTÖğ LÚíúçïO-]h\?ŸI…*Û¥b…ˆ®ïÏ¥U% £Ì:ä
+@µĞ`º‚£½Ì>õúó!êE];°¯q-MOb"[;yÏ÷ÿ|ş‚¹Q—9b*?B@ë€;¢Ql¶$¨‹^‰¨ TíWĞÒõ—?­…‡êA$Äƒ·-ÜŸì‘r!kãHÉ,ÍL‰<-òäÒû§CZœ–ÌD¶zò^<Ë[ñzk…Xl×—ñ~Ó2š\M¤!H‚¼Ìæ’ÔP6Kùƒ¦±$/€­œ¬ıù§¼„lü,6aY•ÙğÅïõ¡†.‘Z'_‰Ş"á+y‡A<Òì/^»®ó â›¶¼Ë‹Êñö?–A¤y €O”v +ó®øÍ[nlìúêÔÄújOb [;YÛÁmP	æî¨ÍÜŒwÔàe×áÄŒ^9fïWò¤ñŒüYqëš˜§pxiídê›·=ÜmÈ„E‚òáÃ§H]-È´‘cc
+²2KU¯äA¶Y³Èa“Äî¶æ§+˜‰lõàmÿ?$Œ h"$îçar¥‚ìñãè	í9'yÔ\µ˜%{u8â<ÚÉÛb
+šg°N„á]IG¦Àjeß„9Æ‡ùg6ë0ˆ¶BêìeĞ+«:’˜ÀÖÚcàÉŠwßa‘Ç¼z¢ğØŸñ€'¼d-'ÍCfT©kbpg½.±E$4lTĞÀóJÌõ¡’3¦»=ŠÿŒğ¸ûˆvŠa,‘Zíy¼Em^É;v¯Ü°—A4.ÌéÁLd«o{xâõs';ëÛ¿®0+‡qv ‚´pÒØğ°º†TÅgùÆÜ!­tØÚÁzÕwøˆÅŒAg	ùX¯H’Ùºäj+88œhæê>B³øXD§/"¾%`ftj‰}İ›C£‘Ä B;hÛÁkÂøVA£»™^üöş^¢VÅE1ËFßø¸ºw‘›/ƒd]r¸WŒ4 ¿ã0ˆE,i	lå`=ŸwshÕR‡–t"ë|ğx”7%ıt_ÙÚËOÇ5Píğ“ÀÖÖég"…c%5a‚)ÆãÁLäVzš8ÉRÇéibğr;R›@(oÖáÉÓ¿Ó«¼„¼æo|—Ôä¿7€^Æô
+‹Ãµ¼¡qqib_«{u-3›˜ÈÖNŞ6ğŞ¼ıÆ: ¾|©­£Ò¼ı¼I[÷ Áë˜æıJŞ²#üìÉ$ë<˜Ÿ ÌÂæ\27’ê›·=¼eïÁ6^)¼÷&yrˆ}éJdå¢Ê•¼Ã¢âlJÕ—EÃ 7i3PŞïYìB¿# ÒµK¡U«­¨ü¨ã>JÂÒáÈæ¥EfEäµŸ7š—2‹‰ì,&ï×,:¡6kgR‰5ãLdç"y‡Åf~èe—^;òŸH¨ï×,:=;Ï^tÊuàwœD.‚wX¼wË—ÃµúêÄ@B|ÓŞ9üÏÿ“‚·LÑk{—b@Z·Ğµ\BˆÕòÿI„ŒÉå!³ÿSÇt`^a,oëÎ¹iûïĞR|Ü­ı+À 8rìå
+endstreamendobj711 0 obj<</BBox[0.0 0.0 225.061 91.5154]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 712 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj712 0 obj<</BBox[0.0 0.0 225.061 91.5154]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 713 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj713 0 obj<</BBox[70.9629 641.619 296.024 733.135]/Filter[/FlateDecode]/FormType 1/Length 572/Matrix[1.0 0.0 0.0 1.0 -70.9629 -641.619]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰l”;r1Dó=O€"şàyTe'râD×7¸C”ÊÙ²g»ñ`¦Ãˆ ÖÖa¨…qşPBuk¿:¸`´¯×ÈÇ¬Òœ:ÄPn^€©0Ø oç<`Xæ¸±·üéqiŸ©)¨ë(ã¥¬èòíò¯_ÅÔ†‹]L˜àN	º¨a\HÑ»–¶†2^Ê“\¶]|‘H³!ï¶.¢¼µ¶ÎŞºjÛâİ ŸÛî’Ìûom!	sr¢ï”ÿÆİ\/¦“Ñ#Îvi«kpöë ©•´ˆ4»{l¥ìà²íâßˆl Š‹È†" Ì¶×%:¾ç¿v‚K;»t/eE—o—ŸL¹Vä’‹î2R4Ğ®s©ÒÉS0u0šsÙ‚I
+Ùc²…ğŒŒ$Îª¤ÏWvqgÛ°ƒiĞ~¼ƒ¦h]jßM#ß^½ğf
+Ä¨gáÍ:ÅØŸc*íé›)]ÆRvtùvùÿÃ	gÂğN:×Û˜±ÀØ£àT!Ïs]1ØØJûLmÖÃòa—k_#ÅÜ¸¯Ğ¼B>¤yßÃÜÆ°9/É*ˆ­ÿÑùx
+h®ùF$¹dŒå*eoÓ*ı­cD–-Î¤75ÍM£üà…õÕ3bi¥dÊ›•+Aú=#íVÚ©\¾}>ÉÇ´Ê?pŠùmùzn«9e½	—Hïˆ¼%eB	†*í¸4ƒœßl4Ó…J›ËîÉm<ÊÊ>¶0ñş	0 ŸúO
+endstreamendobj714 0 obj<</BBox[0.0 0.0 208.245 155.074]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 715 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj715 0 obj<</BBox[0.0 0.0 208.245 155.074]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 716 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj716 0 obj<</BBox[87.7589 339.837 296.004 494.911]/Filter[/FlateDecode]/FormType 1/Length 777/Matrix[1.0 0.0 0.0 1.0 -87.7589 -339.837]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰l–A’1E÷>…O@I @:ÏT%›É&›¹~¾ìĞïz¾õÑB0Öœ,úl´Ô¦	>”»º=ÿş~4òÑçóç±ğ3»<Çd2ïòüó˜“:¯	IiØôg«ÃÆã¦5H¿|=x1ùì#µohJês¥1•;}àëñ+©l‘Í±*•3a­$•Orµ„šTe\PSt¥ö†2ÁçñáŠœ¶³ıfú?ejä6¸Âé"µ^RfºCIÒÙÄn)3¥+cC5}©œĞa;Û†Bî>+Ü0$_9áç¸<R1lßAÇbdHSû†¶ˆ}çåS9±Ów 6^ßAú¼aõ„[áJ%â‡/ÉPÃÔÄW%ãî;]#©œèé«dÌƒ˜»U2üM¨Ö^¼¡Düğ2…Öô–3V§Ö¸ä,•ˆ¾™	¡,o9cÃ#+9K%â‡¯½kFndïÊòâ%¢‡¯’E¹H£©Şk‰é°¬1YX<9kl $ãİUª£Uªc,Ê;}àF…›_bZ©ïCd%ï;ğÒ4xÑlz zÕ‘.¦¹VÚŠrENÛÙşó³lí¸İRÖ«\®jÜKÊºÑì3R¦KS»ğÔVS9±Ów jÊ¿¢"G¡´ñÉVRÖ:õ†|äQ„æò•TE*Oc(;|ğ1ix´ÔFM‚~>q”g
+øèx y$|ô7ê­hy1åŠ¾kÿ[ÊÌ°3ß ĞÇWÇG®Ô—ä¼Gm¬VšÿLíÔ¾qS9±Ów Ş)›{ÕZ×
+¨GÌê{†ív&xÍlĞŒ„}·³£ WŒ¹O>„5××ôtÙ7‘İPÜ,ÅJ?¶CğùN“/Ò…Ş´ö Î„2ú¢gú0[¯;Å»“¶zjß¯söf¾Nä´U8X.&û0neàHo+ca*ˆŞRØOjÙº•ÚÑ¢Ô¼C‰àá;§ÖPFÛç9³’àØ×,{_³üeBWG«zÏr,Rí©a–ëş¿5E¹b§ï lª rÓ<
+endstreamendobj717 0 obj<</AP<</N 724 0 R>>/C[1.0 0.819611 0.0]/CA 0.399994/CreationDate(D:20220204133048Z)/F 4/M(D:20220204133051Z)/NM(52cfd024-d754-4516-bcc5-3e2c34d00696)/P 13 0 R/Popup 718 0 R/QuadPoints[368.324 312.118 544.271 312.118 368.324 300.249 544.271 300.249 316.729 299.197 540.468 299.197 316.729 287.328 540.468 287.328]/Rect[313.56 286.957 547.439 312.488]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj718 0 obj<</F 28/Open false/Parent 717 0 R/Rect[609.449 198.118 813.449 312.118]/Subtype/Popup/Type/Annot>>endobj719 0 obj<</AP<</N 721 0 R>>/C[0.988235 0.956863 0.521576]/CA 0.399994/CreationDate(D:20220204133102Z)/F 4/M(D:20220204133105Z)/NM(3745449d-351c-4b44-a71a-9ac59a904ece)/P 13 0 R/Popup 720 0 R/QuadPoints[342.46 275.273 544.292 275.273 342.46 263.405 544.292 263.405 342.46 262.353 544.259 262.353 342.46 250.484 544.259 250.484 342.46 249.388 544.391 249.388 342.46 237.52 544.391 237.52 342.46 236.468 544.345 236.366 342.46 224.498 544.345 224.498 342.425 223.38 544.356 223.38 342.425 211.511 544.356 211.511 342.425 210.459 544.334 210.459 342.425 198.59 544.334 198.59 342.425 197.473 544.345 197.473 342.425 185.604 544.345 185.604 342.425 184.552 538.076 184.552 342.425 172.683 538.076 172.683 325.987 171.28 332.485 171.28 325.987 158.042 332.485 158.042 342.425 171.675 544.225 171.566 342.425 159.697 544.225 159.697 342.425 158.645 544.257 158.645 342.425 146.776 544.257 146.776 342.425 145.724 544.246 145.724 342.425 133.856 544.246 133.856 342.425 132.738 544.225 132.738 342.425 120.869 544.225 120.869 342.425 119.817 544.235 119.817 342.425 107.949 544.235 107.949]/Rect[322.453 107.578 547.56 275.644]/Subj(Highlight)/Subtype/Highlight/T(Harol)/Type/Annot>>endobj720 0 obj<</F 28/Open false/Parent 719 0 R/Rect[609.449 161.273 813.449 275.273]/Subtype/Popup/Type/Annot>>endobj721 0 obj<</BBox[0.0 0.0 225.107 168.067]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 722 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj722 0 obj<</BBox[0.0 0.0 225.107 168.067]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 723 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj723 0 obj<</BBox[322.453 107.578 547.56 275.644]/Filter[/FlateDecode]/FormType 1/Length 682/Matrix[1.0 0.0 0.0 1.0 -322.453 -107.578]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰T•;Ü0Dû=…O@ˆé<’&iÒäú{-“îıDR³ƒÖœ¢~Z3?\Ø3¿¿>ƒÒxÿ>jBÃ	%¶?ÕE² É=JIO_GùÒIRíøñq3’%^ÚohIc®æ,eW/ßføñùÙÈ|M“™+Éäld¾Èİµ‘…ºä&ó%¥İdYÎ¦ÜÕË·Şdšä¼òEfƒ”S™ù³‘Ù"Åtn2]ì¥}ÉxÎælÊ]½|›áM&F¶0ë›La•„5A•ÂB—~Àus™_’FğÆ²sL0+u”‚Ú²üx\ûó”8ÂTæ%‰V3µJ,ê”ëò‰’æÚƒT÷YÚÍå*å,eW/ßfx‘ñšg£ıE6ÉÕÈFb¢Œ±¾6˜š=ÒÍ…—¯)wíÇö¼¹¦óêö “/eEâx»Oâ±IdÓÚ$g)»zù6Ã›Ï9&x'Ã³·9ZÇx2¥c!Ú¯–é¤‘a¥dƒfb9g)»zù6ÃI†S’v&š8¢/â`Ç9“+7D’L¸gS&”u{|Éxı×(T=öÚÙæ,eW|›á‹ØC÷ê¢'*?z ?rzÜùñU&MçÙšŒmbâ’<Üw°á“§/c~‡ûà_X¶rİß©“‰ÖôÑ"<u¶ÑºÓ4t¼]f"Ol=y›%í¸=7}KÙÅÛ&xs!v¦{¾¸OáÊÇ—Dï–9¥ØN[ÜÛJ»Á_œ¥ìêåÛo2ÏŒõî*"²‘É¢eCÖ$5gr•öRËÙ”»zù6Ã›Ñ³lÆ‹ŒÏEl‰ËŒªç_HÙxşÿxƒi×n0=Ób;›ò-^¶Mprı` \7«‘
+endstreamendobj724 0 obj<</BBox[0.0 0.0 233.879 25.531]/FormType 1/Length 27/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</R0<</AIS false/CA 0.399994/Type/ExtGState/ca 0.399994>>/R1<</AIS false/BM/Multiply/Type/ExtGState>>>>/ProcSet[/PDF]/XObject<</MWFOForm 725 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/R0 gs
+/R1 gs
+/MWFOForm Do
+
+endstreamendobj725 0 obj<</BBox[0.0 0.0 233.879 25.531]/FormType 1/Group<</S/Transparency>>/Length 9/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ProcSet[/PDF]/XObject<</Form 726 0 R>>>>/Subtype/Form/Type/XObject>>stream
+/Form Do
+
+endstreamendobj726 0 obj<</BBox[313.56 286.957 547.439 312.488]/Filter[/FlateDecode]/FormType 1/Length 161/Matrix[1.0 0.0 0.0 1.0 -313.56 -286.957]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+H‰LKÃ ÷œÂ'xò>O¤vÓnºéõkª$°ˆ„FÌc"Ä.BLŸgaô*ƒ¾Å|ÀÔœŒZƒŞ‰šº$2põF‰¼Íy¸5Qˆt§£´Z¡Ûb¯dì=–¹‘s}ygÂQÅÄÑutÊ/ÅQg˜"ÇIƒ!ÚmÄaóíË‹@şpüÃÕsâf3Ì ·¹‘s}yWÃ,û	0 ÒË@Œ
+endstreamendobjxref
+0 1
+0000000000 65535 f
+4 1
+0000646144 00000 n
+7 1
+0000652518 00000 n
+13 2
+0000653098 00000 n
+0000653493 00000 n
+702 25
+0000653792 00000 n
+0000655178 00000 n
+0000655292 00000 n
+0000656290 00000 n
+0000656406 00000 n
+0000658243 00000 n
+0000658359 00000 n
+0000658707 00000 n
+0000658943 00000 n
+0000660388 00000 n
+0000660736 00000 n
+0000660972 00000 n
+0000661762 00000 n
+0000662110 00000 n
+0000662346 00000 n
+0000663341 00000 n
+0000663764 00000 n
+0000663880 00000 n
+0000665065 00000 n
+0000665181 00000 n
+0000665529 00000 n
+0000665765 00000 n
+0000666664 00000 n
+0000667011 00000 n
+0000667246 00000 n
+trailer
+<</Size 727/Root 1 0 R/Info 7 0 R/ID[<7E69A12AECE4BF04C5621F47065861AD><99F5FECDB81CC04C8CE31B46542A2E48>]/Prev 645773>>
+startxref
+667623
+%%EOF
