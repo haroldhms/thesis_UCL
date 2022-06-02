@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 from plotly.offline import init_notebook_mode, iplot
 init_notebook_mode(connected=True)
 
-
+ 
 def drawdown(series) -> pd.Series:
     """
     Compute the drawdown for a price series. The drawdown is defined as 1 - price/highwatermark.
