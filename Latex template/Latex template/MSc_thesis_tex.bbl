@@ -1,0 +1,41 @@
+\begin{thebibliography}{4}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \expandafter\ifx\csname doi\endcsname\relax
+  \def\doi#1{doi:\discretionary{}{}{}#1}\fi \else
+  \expandafter\ifx\csname doi\endcsname\relax
+  \def\doi{doi:\discretionary{}{}{}\begingroup \urlstyle{rm}\Url}\fi \fi
+
+\bibitem[{Fusai et~al.(2016)Fusai, Germano, and Marazzina}]{fusai2015}
+Fusai, G., G.~Germano, D.~Marazzina. 2016.
+\newblock Spitzer identity, {W}iener-{H}opf factorisation and pricing of
+  discretely monitored exotic options.
+\newblock {\it European Journal of Operational Research\/} {\bf 251}(4)
+  124--134.
+\newblock \doi{10.1016/j.ejor.2015.11.027}.
+
+\bibitem[{Lamport(1994)}]{Lamport1994}
+Lamport, L. 1994.
+\newblock {\it LaTeX: A Document Preparation System: User's Guide and Reference
+  Manual\/}.
+\newblock 2nd ed. Addison Wesley, Boston.
+
+\bibitem[{Press et~al.(2007)Press, Teukolsky, Vetterling, and
+  Flannery}]{Press2007}
+Press, W.~H., S.~A. Teukolsky, W.~T. Vetterling, B.~P. Flannery. 2007.
+\newblock {\it Numerical Recipes in C++\/}.
+\newblock 3rd ed. Cambridge University Press, Cambridge.
+
+\bibitem[{Wang(2014)}]{Wang2014}
+Wang, R. 2014.
+\newblock Conformal mapping between \textit{s}-plane to \textit{z}-plane.
+\newblock
+  \url{http://fourier.eng.hmc.edu/e102/lectures/Z_Transform/node2.html}.
+\newblock
+  \urlprefix\url{http://fourier.eng.hmc.edu/e102/lectures/Z_Transform/node2.html}.
+\newblock Accessed: 09/10/2015.
+
+\end{thebibliography}
