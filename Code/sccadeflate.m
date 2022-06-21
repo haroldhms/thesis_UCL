@@ -1,4 +1,4 @@
-function [W, Z, output] = sccadeflate(trainX,Kb,k,a,b)
+function [W, Z, output] = sccadeflate(trainX,Kb,k,a,b,c)
 
 %
 % This is a wrapper function that runs the SCCA2 function while deflating
@@ -24,7 +24,7 @@ co = 1;
 
 for i=1:length(k)
     fprintf('.');
-    [output.w,output.e,t1,t2,t3,t4,output.cor,output.res] = SCCA2(tX,KK,k(i),a,b);
+    [output.w,output.e,t1,t2,t3,t4,output.cor,output.res] = scca(tX,KK,k(i),a,b,c);
     
     wa(:,co) = output.w;
     e(:,co) = output.e;
@@ -34,14 +34,15 @@ for i=1:length(k)
     
     % Dual Deflation 
     projk(:,i) = KK*e(:,i);
-    tau(:, i) = KK*projk(:,i);       
-    P = eye(length(KK)) - (tau(:,i)*tau(:,i)')/(tau(:,i)'*tau(:,i));     
+    tau(:, i) = KK*projk(:,i);
+
+    P = eye(length(KK)) - (tau(:,i)*tau(:,i)')/(tau(:,i)'*tau(:,i));    
     KK = P'*KK*P;
 
     % Primal Deflation
     proj(:,i) = tX*(tX'*wa(:,i));
-    t(:,i) = tX'*proj(:,i);    
-    tX = tX - tX*(t(:,i)*t(:,i)')/(t(:,i)'*t(:,i)); 
+    t(:,i) = tX'*proj(:,i);
+    tX = tX - tX*(t(:,i)*t(:,i)')/(t(:,i)'*t(:,i));
 end
 disp(' ');
 

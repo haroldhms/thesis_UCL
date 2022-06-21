@@ -91,7 +91,7 @@ C = 2*mu;
 alpha = d1 + mu*j;
 
 % Finding alphas that break the constraints
-I = find(alpha < 0 | alpha > C); 
+I = find(alpha < 0 | alpha > C);
 
 % Selecting the violations
 ta = alpha(I);
@@ -146,6 +146,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
     N = length(I);
  
     % compute the new covariance matrix if needed
+    
     if (skipCon == 0)   
         CX = X(I,:)*X(I,:)';  
     end
@@ -183,17 +184,17 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
                     w(I(i)) = w(I(i)) + dw;
                 end                 
             end 
-
+          
             %% Update w if need to
             if (needtoupdate1 == true)               
                 %% Computing the learning rate
                 learningRate = 1/(2*tau^2*CX(i,i));
 
                %% Updating
-                firstBit = 2*tau*(1-tau)*c(I(i)) + mu - alpha(I(i));          	                
+                firstBit = 2*tau*(1-tau)*c(I(i)) + mu - alpha(I(i));     	                
                 w(I(i)) = w(I(i)) + learningRate*(firstBit - 2*tau^2*lefts(i));              
             end     
-
+           
             %% Checking that w does not skip zero
             if ((sa_w(I(i)) < 0) && (w(I(i)) > 0)) || ((sa_w(I(i)) > 0) && (w(I(i)) < 0))           
                 w(I(i)) = 0;
@@ -248,7 +249,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
         preE = e(J);
 
         % precompute part of lagrangian update
-        oneP = 2*tau*(1-tau)*Ij(J,J)'*K(:,J)'*X(I,:)'*w(I);
+        oneP = 2*tau*(1-tau)*Ij(J,J)'*K(:,J)'*X(I,:)'*w(I)
 
         % Converging over e
         change = true;
@@ -344,17 +345,16 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
         %% sorting as to select the largest violations first
         [sta,stai] = sort(ta);
         I = I(stai);
-
+        
         %% sanity check - do any of the violations are repeats?
         for kp=1:length(I)                     
-            lc = find(I(kp) == pI);
+            lc = find(I(kp) == pI); %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             if lc > 0
                pI(lc) = 0;
             end
         end
-
         % Grab only one copy of the violations
-        pI = pI((pI ~= 0));             
+        pI = pI((pI ~= 0));         
 
         %% Adding the previous I's for which w has a non zero element
         I = sort([pI((w(pI)~=0)); I]);
