@@ -141,6 +141,11 @@ loo = 1;
 % on the alphas and that the difference between the pervious and corrent
 % alphas is minimal
 while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1) == 0)))
+    %% stop while loop if no convergence after 500 iterations (Harold)
+    if wloop>500
+        break
+    end
+
     %% set change to true so we enter the convergence on w
     change = true;   
     N = length(I);
@@ -163,7 +168,8 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
         lefts = CX*w(I);
         
         %%% for the found alphas
-        for i=1:N                       
+        for i=1:N
+            i
             %% Upper and lower bounding alpha
             needtoupdate1 = false;
 
@@ -212,7 +218,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
                 
                 %%% did we converege enough?          
                 if abs(b) > tolerance
-                    change = true;                     
+                    change = true                     
                 end
             end            
         end
@@ -249,7 +255,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
         preE = e(J);
 
         % precompute part of lagrangian update
-        oneP = 2*tau*(1-tau)*Ij(J,J)'*K(:,J)'*X(I,:)'*w(I)
+        oneP = 2*tau*(1-tau)*Ij(J,J)'*K(:,J)'*X(I,:)'*w(I);
 
         % Converging over e
         change = true;

@@ -162,7 +162,8 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
         lefts = CX*w(I);
         
         %%% for the found alphas
-        for i=1:N                       
+        for i=1:N
+            i
             %% Upper and lower bounding alpha
             needtoupdate1 = false;
 
@@ -211,7 +212,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
                 
                 %%% did we converege enough?          
                 if abs(b) > tolerance
-                    change = true;                     
+                    change = true                     
                 end
             end            
         end
