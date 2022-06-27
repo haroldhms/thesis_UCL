@@ -482,6 +482,7 @@ def scca_deflator(trainX,Kb,k,a,b,c,oo,ww,ee):
     loops_e = np.zeros(len(k))
     
     for i in range(len(k)):
+        print(i)
         output_w,output_e,t1,t2,t3,t4,output_cor,output_res, t_o,t_w,t_e,l_o,l_w,l_e = scca(tX,KK,k[i],a,b,c,oo,ww,ee)
         
         wa[:,co] = output_w

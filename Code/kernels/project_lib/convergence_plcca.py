@@ -113,7 +113,7 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
     if len(I) > 1000:
         I = I[(len(I)-999):]
 
-    pI = I
+    pI = I.copy()
 
     # Initial W tolerance is set
     tolerance = 0.3*abs(max(alpha[I]))
