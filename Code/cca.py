@@ -31,11 +31,14 @@ def scca(X,K,masterI,outdis,debug,sk,oo,ww,ee):
  Input:  X        - Primal data of view one    [m x l]
          K        - dual data of view two      [l x l]
          masterI  - Starting point for e       [1 x 1]
-         od       - output display true/false
-         debug    - outputs primal-dual progression true/false
-         sk       - scaling factor for mu and gamma
+         od       - output display true/false  [boolean]
+         debug    - outputs primal-dual progression true/false     [boolean]
+         sk       - scaling factor for mu and gamma                [1 x 1]
+         oo       - max iterations over outer while loop           [1 x 1]
+         ww       - max iterations over primal weights update loop [1 x 1]
+         ee       - max iterations over dual weights update loop   [1 x 1]
 
- Output: w     - sprase weight vector      [1 x m]
+ Output: w     - sparse weight vector      [1 x m]
          e     - sparse projct vectors     [1 x l]
          alpha - 1'st view dual parameters [1 x m]
          beta  - 2'nd view dual parameters [1 x l]
@@ -43,18 +46,31 @@ def scca(X,K,masterI,outdis,debug,sk,oo,ww,ee):
          gamma - lagrangian (scale factor) [1 x 1]
          cor   - correlation value         [1 x 1]
          res   - Optimisation solution/s   [1 x 1]
+         
+         time_o - time (s) of outer while                            [1 x 1]
+         time_w - total (s) taken by primal weight convergences      [1 x 1]
+         time_e - total (s) taken by dual weight convergences        [1 x 1]
+         loops_o - number of loops overall while                     [1 x 1]
+         loops_w - total number of loops primal weights while        [1 x 1]
+         loops_e - total number of loops dual weights while          [1 x 1]
 
 Based on MATLAB code from David R. Hardoon 25/06/2007
     """
+    # initialise debug variables
+    time_o = 0
+    time_w = 0
+    time_e = 0
+    loops_o = 0
+    loops_w = 0
+    loops_e = 0
 
-
-
+    
     #Initialising parameters 
     #Setting the infinity norm
     e = np.zeros(K.shape[1])
-    beta = e
+    beta = e.copy()
     e[masterI] = 1
-    sa_e = e
+    sa_e = e.copy()
     eDifference = 0
     
 
@@ -87,7 +103,6 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
     gamma = np.mean(abs(2 * (1-tau)**2 * Ij @ KK[:,masterI]*e[masterI]))
     # Computing the upper bound on the w's
     C = 2*mu
-
     # Computing inital alpha
     alpha = d1 + mu*j;
     
@@ -141,26 +156,27 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
     # The loop is repeated while there are violations and we are still working
     # on the alphas and that the difference between the pervious and corrent
     # alphas is minimal
+    # initiate time of overall while loop
+    time_o = time.time()
     while((I.any() and exitLoop) | (sum((alphaDifference > globtolerance) == 1) == 0)):
         # set change to true so we enter the convergence on w
         if wloop > oo: break
         change = True
         N = len(I)
-        
         # compute the new covariance matrix if needed
         if (skipCon == 0):
             CX = X[I,:] @ X[I,:].T
             
         # save the previous alphas
         preAlpha = alpha[I]
-        
         # until convergence do
         # set limit on number of converges
-        converter = 0
+        converger_count = 0
         
+        timer_start = time.time()
         while(change):
-            converter += 1
-            if converter > ww:
+            converger_count += 1
+            if converger_count > ww:
                 break
             # we can exit
             change = False
@@ -216,8 +232,10 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
                     change = True
             
             #for loop ident
+        # update debug varibales
+        time_w += time.time() - timer_start
+        loops_w = converger_count
         #while change loop ident
-        
         ########################################
         # working on the e's now
         
@@ -228,16 +246,18 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
             # variable i.e. they are not really computed, we are able to use their
             # value as an indication of which e's are needed)
             local_beta = 2 * (1-tau)**2 * Ij @ (KK @ e) - 2 * tau * (1-tau) * Ij @ K.T  @ X[I,:].T  @ w[I] + gamma
-            
             # find e's that need to be worked on
             J = np.sort(np.append(np.where(local_beta < 0), masterI))
+           
             
             # save previous e's
             preE = e[J]
-            
             # precompute part of lagrangian update
-            oneP = 2 * tau * (1-tau) * Ij[J,J].T  @ K[:,J].T @ X[I,:].T @ w[I]
-
+            # Ij subsetting
+            Ij1 = Ij[:,J]
+            Ij2 = Ij1[J,:]
+            
+            oneP = 2 * tau * (1-tau) * Ij2.T  @ K[:,J].T @ X[I,:].T @ w[I]
             # converging over e
             change = True
             N = J.shape[0]
@@ -245,43 +265,55 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
             # until convergence
             # set a counter
             converger = 0
+            
+            time_starter = time.time()
             while(change==True):
                 converger += 1
                 if converger > ee: break
                 change = False
+                KK1 = KK[:,J]
+                KK2 = KK1[J,:]
                 
-                lefts = Ij[J,J].T * KK[J,J] * e[J]
+                lefts = Ij2.T @ KK2 @ e[J]
                 
                 for i in range(N):
                     if (J[i] != masterI) :
+                        
                         learningRate = 1 / (4 * (1-tau)**2 * KK[J[i],J[i]])
-
+                        #print("learning rate : {}".format(learningRate))
+                        
                         if (learningRate > 1e+3 or learningRate < 1e-3):
                             learningRate=1
                         # before : oneP[i]
-                        e[J[i]] = e[J[i]] + learningRate*(oneP - 2 * (1-tau)**2 * lefts[i] + beta[J[i]] - gamma)
-
+                        
+                        
+                        e[J[i]] = e[J[i]] + learningRate*(oneP[i] - 2 * (1-tau)**2 * lefts[i] + beta[J[i]] - gamma)
+                                            
                         if (e[J[i]] < 0):
                             e[J[i]] = 0
+                        
                         elif (e[J[i]] > 1):
                             e[J[i]] = 1
                         else:
                             beta[J[i]] = 0
-
                         b = e[J[i]]-sa_e[J[i]]
                         sa_e[J[i]] = e[J[i]]
-
                         if b != 0:
-                            lefts = lefts + Ij[J,J].T @ KK[J,J[i]] * b
+                            
+                            lefts = lefts + Ij2.T @ KK[J,J[i]] * b
 
                             if abs(b) > etolerance:
                                 change = True
+            # update debug variables
+            time_e += time.time() - time_starter
+            loops_e += converger
+            
             # recompute c
             c = X @ (K[:,J] @ e[J])
             
             # check to see if there is any difference from previous e's
             eDifference = abs(e[J] - preE)
-            
+        
             # compute new tolerance values
             etolerance = 0.3 * abs(max(eDifference))
             
@@ -295,6 +327,7 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
         
         # check to see if there is any difference from previous alpha's (e's)
         alphaDifference = abs(alpha[I] - preAlpha)
+        #print("alpha diff : {}".format(alphaDifference))
         
         # compute new tolerance values
         tolerance = 0.3*abs(max(alphaDifference))
@@ -361,10 +394,13 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
             I = pI
         
         # update loop number
+        loops_o = wloop
         wloop += 1
-
+    
     #############################################################################
     # end of convergence algorithm
+    # update time of overall while loop
+    time_o = time.time() - time_o
     
     # compute vector length
     wv = (w @ X) @ (X.T @ w)

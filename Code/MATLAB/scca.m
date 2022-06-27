@@ -142,9 +142,9 @@ loo = 1;
 % alphas is minimal
 while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1) == 0)))
     %% stop while loop if no convergence after 500 iterations (Harold)
-    if wloop>500
-        break
-    end
+    %if wloop>500
+    %    break
+    %end
 
     %% set change to true so we enter the convergence on w
     change = true;   
@@ -169,7 +169,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
         
         %%% for the found alphas
         for i=1:N
-            i
+       
             %% Upper and lower bounding alpha
             needtoupdate1 = false;
 
@@ -218,7 +218,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
                 
                 %%% did we converege enough?          
                 if abs(b) > tolerance
-                    change = true                     
+                    change = true;                 
                 end
             end            
         end
@@ -237,7 +237,6 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
 %            loo = 1;
 %         end
     end
-
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %% Working now on the e's
     
@@ -297,6 +296,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
                 end
             end        
         end
+         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
         % recompute c
         c = X*(K(:,J)*e(J));
@@ -314,7 +314,7 @@ while((~isempty(I) && exitLoop) || (~(sum((alphaDifference > globtolerance) == 1
     end
     
     % recompute alpha using the new w's 
-    alpha = 2*tau*(1-tau)*c + mu*j - 2*tau^2*X*(X(I,:)'*w(I)); 
+    alpha = 2*tau*(1-tau)*c + mu*j - 2*tau^2*X*(X(I,:)'*w(I));
     
     % check to see if there is any difference from previous alpha's (e's)
     alphaDifference = abs(alpha(I) - preAlpha);
