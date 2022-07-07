@@ -89,7 +89,7 @@ def parallel_kernel(X, R, kernel):
 
 ############### partially linear CCA using CVX conversion ##########
 # from Shawe-Taylor, 2008
-def cca_deflate(trainX, Kb, k, sk, verbose, solver):
+def plcca_deflate(trainX, Kb, k, sk, verbose, solver):
     """
 
      This is a wrapper function that runs the SCCA2 function while deflating
@@ -670,7 +670,7 @@ Based on MATLAB code from David R. Hardoon 25/06/2007
         return w, e, alpha, beta, mu, gamma, cor, res
 
 
-def scca_deflator(trainX, Kb, k, outdis, debug, sk, oo, ww, ee):
+def scca_deflator(trainX, Kb, k, outdis, debug, sk, oo, ww, ee, convergence_analysis=False):
     """
 
      This is a wrapper function that runs the SCCA2 function while deflating
@@ -700,57 +700,134 @@ def scca_deflator(trainX, Kb, k, outdis, debug, sk, oo, ww, ee):
     tau = np.zeros((Kb.shape[1], len(k)))
     proj = np.zeros((trainX.shape[0], len(k)))
     t = np.zeros((Kb.shape[1], len(k)))
+    
+    # in case convergence_analysis is True
+    time_o = np.zeros(len(k))
+    time_w = np.zeros(len(k))
+    time_e = np.zeros(len(k))
+    loops_o = np.zeros(len(k))
+    loops_w = np.zeros(len(k))
+    loops_e = np.zeros(len(k))
+    
+    if convergence_analysis == False:
+        for i in range(len(k)):
+            output_w, output_e, output_alpha, output_beta, output_mu, output_gamma, output_cor, output_res = scca(
+                tX, KK, k[i], outdis, debug, sk, oo, ww, ee, convergence_analysis)
 
-    for i in range(len(k)):
-        output_w, output_e, output_alpha, output_beta, output_mu, output_gamma, output_cor, output_res = scca(
-            tX, KK, k[i], outdis, debug, sk, oo, ww, ee)
+            wa[:, co] = output_w
+            e[:, co] = output_e
+            resval[co] = output_res
+            corval[co] = output_cor
 
-        wa[:, co] = output_w
-        e[:, co] = output_e
-        resval[co] = output_res
-        corval[co] = output_cor
+            co += 1
 
-        co += 1
+            # dual deflation
+            projk[:, i] = KK @ e[:, i]
+            tau[:, i] = KK @ projk[:, i]
 
-        # dual deflation
-        projk[:, i] = KK @ e[:, i]
-        tau[:, i] = KK @ projk[:, i]
+            P = np.eye(len(KK)) - \
+                (np.outer(tau[:, i], tau[:, i])) / (tau[:, i].T @ tau[:, i])
+            KK = P.T @ KK @ P
 
-        P = np.eye(len(KK)) - \
-            (np.outer(tau[:, i], tau[:, i])) / (tau[:, i].T @ tau[:, i])
-        KK = P.T @ KK @ P
+            # primal deflation
+            proj[:, i] = tX @ (tX.T @ wa[:, i])
+            t[:, i] = tX.T @ proj[:, i]
+            tX = tX - tX @ (np.outer(t[:, i], t[:, i])) / (t[:, i].T @ t[:, i])
+        print('    ')
 
-        # primal deflation
-        proj[:, i] = tX @ (tX.T @ wa[:, i])
-        t[:, i] = tX.T @ proj[:, i]
-        tX = tX - tX @ (np.outer(t[:, i], t[:, i])) / (t[:, i].T @ t[:, i])
-    print('    ')
+        # Primal projection
+        P = trainX @ t @ np.linalg.inv(t.T @ t)
+        W = proj @ np.linalg.inv(P.T @ proj)
 
-    # Primal projection
-    P = trainX @ t @ np.linalg.inv(t.T @ t)
-    W = proj @ np.linalg.inv(P.T @ proj)
+        # can't think of a fancy way to normalise the vectors
+        WW = W.copy()
+        for i in range(W.shape[1]):
+            WW[:, i] = W[:, i] / np.linalg.norm(trainX.T @ W[:, i])
+        W = WW
 
-    # can't think of a fancy way to normalise the vectors
-    WW = W.copy()
-    for i in range(W.shape[1]):
-        WW[:, i] = W[:, i] / np.linalg.norm(trainX.T @ W[:, i])
-    W = WW
+        # Dual Projection
+        Z = projk @ np.linalg.inv(np.linalg.inv(tau.T @ tau) @ tau.T @ Kb @ projk)
 
-    # Dual Projection
-    Z = projk @ np.linalg.inv(np.linalg.inv(tau.T @ tau) @ tau.T @ Kb @ projk)
+        ZZ = Z.copy()
+        for i in range(Z.shape[1]):
+            ZZ[:, i] = Z[:, i] / np.linalg.norm(Kb @ Z[:, i])
+        Z = ZZ
 
-    ZZ = Z.copy()
-    for i in range(Z.shape[1]):
-        ZZ[:, i] = Z[:, i] / np.linalg.norm(Kb @ Z[:, i])
-    Z = ZZ
+        output = {"w": wa,
+                  "e": e,
+                  "P": P,
+                  "dual_tau": tau,
+                  "primal_tau": t,
+                  "cor": corval,
+                  "res": resval,
+                  "W": W,
+                  "Z": Z}
+    else:
+        for i in range(len(k)):
+            output_w, output_e, output_alpha, output_beta, output_mu, output_gamma, output_cor, output_res,t_o,t_w,t_e,l_o,l_w,l_e  = scca(
+                tX, KK, k[i], outdis, debug, sk, oo, ww, ee, convergence_analysis)
 
-    output = {"w": wa,
-              "e": e,
-              "P": P,
-              "dual_tau": tau,
-              "primal_tau": t,
-              "cor": corval,
-              "res": resval,
-              "W": W,
-              "Z": Z}
+            wa[:, co] = output_w
+            e[:, co] = output_e
+            resval[co] = output_res
+            corval[co] = output_cor
+            
+            time_o[co] = t_o
+            time_w[co] = t_w
+            time_e[co] = t_e
+
+            loops_o[co] = l_o
+            loops_w[co] = l_w
+            loops_e[co] = l_e
+            
+            co += 1
+
+            # dual deflation
+            projk[:, i] = KK @ e[:, i]
+            tau[:, i] = KK @ projk[:, i]
+
+            P = np.eye(len(KK)) - \
+                (np.outer(tau[:, i], tau[:, i])) / (tau[:, i].T @ tau[:, i])
+            KK = P.T @ KK @ P
+
+            # primal deflation
+            proj[:, i] = tX @ (tX.T @ wa[:, i])
+            t[:, i] = tX.T @ proj[:, i]
+            tX = tX - tX @ (np.outer(t[:, i], t[:, i])) / (t[:, i].T @ t[:, i])
+        print('    ')
+
+        # Primal projection
+        P = trainX @ t @ np.linalg.inv(t.T @ t)
+        W = proj @ np.linalg.inv(P.T @ proj)
+
+        # can't think of a fancy way to normalise the vectors
+        WW = W.copy()
+        for i in range(W.shape[1]):
+            WW[:, i] = W[:, i] / np.linalg.norm(trainX.T @ W[:, i])
+        W = WW
+
+        # Dual Projection
+        Z = projk @ np.linalg.inv(np.linalg.inv(tau.T @ tau) @ tau.T @ Kb @ projk)
+
+        ZZ = Z.copy()
+        for i in range(Z.shape[1]):
+            ZZ[:, i] = Z[:, i] / np.linalg.norm(Kb @ Z[:, i])
+        Z = ZZ
+
+        output = {"w" : wa,
+             "e" : e,
+             "P" : P,
+             "dual_tau" : tau,
+             "primal_tau" : t,
+             "cor" : corval,
+             "res" : resval,
+             "W" : W,
+             "Z" : Z,
+             "time_o":time_o,
+             "time_w":time_w,
+             "time_e":time_e,
+             "loops_o":loops_o,
+             "loops_w":loops_w,
+             "loops_e":loops_e}
+        
     return output

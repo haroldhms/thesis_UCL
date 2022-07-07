@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from project_lib.NLW import *
 from project_lib.cvc import *
+from sklearn.covariance import LedoitWolf
 
 ####################### Signal construction ################################
 
