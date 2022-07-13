@@ -257,7 +257,7 @@ def build_table3(cov_models, w, ptf_ret):
 
 
 def plotting(pnl_results, cov_models):
-    color_legend = ['#4E87A0', '#008264', '#00A3AD', '#7C878E', '#9E2A2B', '#003865']
+    color_legend = ['#4E87A0', '#008264', '#00A3AD', '#7C878E', '#9E2A2B', '#003865','#E53D51','#A2C663','#4698CB']
 
     pnl_fig = go.Figure(
         data=[
