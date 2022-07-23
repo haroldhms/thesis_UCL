@@ -234,7 +234,7 @@ def plcca(X, K, masterI, sk, verbose=False, solver="ECOS"):
 
     # solve problem
     prob = cp.Problem(obj, constraints)
-    prob.solve(verbose=verbose, warm_start=True)
+    prob.solve(verbose=verbose, warm_start=True,solver=solver)
 
     # extract correlation
     w = np.array(w.value)
